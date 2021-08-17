@@ -9,3 +9,9 @@ class animal:
             return False
         else:
             return True
+
+class cage:
+    def __init__(self, occupant, capacity):
+        self.occupant = occupant
+        self.capacity = capacity
+
